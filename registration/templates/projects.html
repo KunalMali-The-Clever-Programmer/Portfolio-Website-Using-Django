@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <style>
+      body {
+        background: url('your-background-image.jpg'); /* Replace 'your-background-image.jpg' with your actual image path */
+        background-size: cover;
+        margin: 0;
+        padding: 0;
+      }
+
+      .navbar {
+        background: rgba(0, 123, 255, 0.5); /* Background color with alpha for transparency */
+        backdrop-filter: blur(10px); /* Adjust the blur value for the glass effect */
+      }
+
+      .navbar-brand,
+      .navbar-nav .nav-link {
+        color: white; /* Adjust text color */
+        transition: color 0.3s; /* Smooth transition for color change */
+      }
+
+      .navbar-brand:hover,
+      .navbar-nav .nav-link:hover {
+        color: #17a2b8; /* Change the color on hover */
+      }
+    </style>
+
+    <title>Home Page</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <a class="navbar-brand" href="#">Home Page</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="{% url 'home' %}">Home <span class="sr-only"></span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="{% url 'about' %}">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="{% url 'project' %}">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="{% url 'contact' %}">Contact</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="{% url 'logout' %}">Logout <span class="sr-only"></span></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Project Portfolio Section -->
+    <section class="container mt-5">
+      <div class="col-md-12">
+        <h2>Future Sales Prediction</h2>
+        <p>Welcome to the Future Sales Prediction repository! This project focuses on 
+          predicting future sales for products or services using advanced machine learning techniques. 
+          By analyzing historical sales data, the goal is to develop accurate models that can forecast sales trends, 
+          aiding businesses in making informed decisions and optimizing their strategies.</p>
+        <a href="https://github.com/KunalMali-The-Clever-Programmer/Future-Sales-Prediction" target="_blank">GitHub Link</a>
+      </div>
+      <div class="col-md-12">
+        <h2>Tic Tac Toe</h2>
+        <p>The Tic Tac Toe game implemented in Python with the Tkinter graphical user interface (GUI) 
+          library provides a simple yet engaging gaming experience. 
+          Tkinter makes it easy to create a user-friendly interface for the classic Tic Tac Toe game.</p>
+        <a href="https://github.com/KunalMali-The-Clever-Programmer/Future-Sales-Prediction" target="_blank">GitHub Link</a>
+      </div>
+      <div class="col-md-12">
+        <h2>Travel App MERN Full Stack main</h2>
+        <p>Welcome to our Travel-Hotel Booking website, a comprehensive platform that allows users to explore, book,
+           and manage hotel accommodations seamlessly. Built using the MERN (MongoDB, Express.js, React.js, Node.js) stack, 
+          this application provides a robust and user-friendly experience for both travelers and hotel owners.</p>
+        <a href="https://github.com/KunalMali-The-Clever-Programmer/Future-Sales-Prediction" target="_blank">GitHub Link</a>
+      </div>
+      <div class="col-md-12">
+        <h2>Currency converter in php</h2>
+        <p>The Currency Converter in PHP is a web application designed to facilitate the conversion of currencies 
+          based on real-time exchange rates. This application 
+          allows users to quickly and easily convert one currency to another, providing accurate and up-to-date conversion results.</p>
+        <a href="https://github.com/KunalMali-The-Clever-Programmer/Future-Sales-Prediction" target="_blank">GitHub Link</a>
+      </div>
+      <div class="col-md-12">
+        <h2>Portfolio Website with Django</h2>
+        <p>Welcome to my portfolio website! This site is crafted using the Django web framework, 
+          showcasing my skills, projects, and professional journey. As a versatile and passionate developer,
+           I've designed this platform to provide you with insights into my work and experiences.</p>
+        <a href="https://github.com/your-username/project2" target="_blank">GitHub Link</a>
+      </div>
+      <!-- Add more project sections as needed -->
+    </section>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
